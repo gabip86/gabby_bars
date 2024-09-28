@@ -1,0 +1,12 @@
+.bars__payments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bars__payments h1, h2, h3, p {
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    margin-bottom: 1rem;
+}

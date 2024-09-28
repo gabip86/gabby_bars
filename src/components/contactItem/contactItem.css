@@ -1,0 +1,22 @@
+.bars__contact-list__item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem;
+    background: #fff;
+    min-height: 200px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.bars__contact-list__item-title h1 {
+    color: var(--color-subtext);
+}
+
+.bars__contact-list__item-text p {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 24px;;
+}
